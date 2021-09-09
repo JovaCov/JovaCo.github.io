@@ -1,0 +1,157 @@
+html {
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #BEE1E6;
+    
+}
+h1 {
+    color: #FFF1E6;
+}
+h2 {
+    color: #FAD2E1;
+}
+section {
+    width: 56%;
+    margin-left: 22%;
+    margin-top: 2%;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    background-color: #BEE1E6;
+    border-radius: 23px;
+    filter: drop-shadow(-11px -11px 25px rgb(255,255,255, 0.35));
+}
+
+
+#message_sec {
+    font-size: 150%;
+    text-align: center;
+    color: blueviolet;
+    
+
+}
+#message_sec form {
+    display: flex;
+    justify-content: space-evenly;
+}
+#message_sec input {
+    
+    margin-bottom: 3%;
+    font-size: 50%;
+}
+#message_sec textarea {
+    margin-bottom: 3%;
+    font-size: 50%;
+}
+button:hover {
+    color: #FAD2E1;
+    background-color: #EAE4E9;
+}
+footer {
+    letter-spacing: 5px;
+    background-color: #FDE2E4;
+}
+header {
+    display: block;
+    background-color: #EAE4E9;
+    
+    z-index: 2;
+}
+.container {
+    padding: 1rem 0;
+    margin: 0 auto;
+    max-width: 1024px;
+}
+div {
+    display: line-block;
+}
+.nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+.menu_item {
+    margin-right: 1rem;
+
+}
+li {
+    display: list-item;
+    list-style: none;
+}
+.grid {
+    max-width: relative;
+    display: grid;
+    grid-template-columns:1fr 1fr; 
+    grid-template-rows: 1fr 1fr;
+  }
+.exp_item:nth-child(odd) {
+    background: #a5cee9;
+}
+#message ul{
+    max-width: relative;
+    display: grid;
+    grid-template-columns:1fr 1fr; 
+    grid-template-rows: 1fr 1fr;
+
+}
+/* #about {
+    
+    width: 25%;
+} */
+
+.abt-sec {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+img {
+    
+    width: 35%;
+    height: 35%;
+}
+.abt-text {
+    width: 35%;
+    /* margin-top: 10%; */
+}
+.skills_dev {
+    display: flex;
+    justify-content: space-evenly;
+}
+.proj-sec {
+    display: flex;
+    justify-content: space-evenly;
+}
+@media (min-width: 600px) {
+    html{
+        font-size: 2.25rem;
+    }
+    section {
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+
+    }
+    .exp_item {
+        font-size: .45rem;
+    }
+    img {
+        margin-top: 2rem;
+    }
+    #message_sec form {
+        display: inline;
+
+    }
+    button {
+        width: 300px;
+        height: 100px;
+        font-size: 50px;
+          
+    }
+}
